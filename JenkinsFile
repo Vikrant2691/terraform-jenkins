@@ -14,7 +14,7 @@ checkout([$class: ‘GitSCM’, branches: [[name: ‘*/master’]], extensions: 
 
 }
 
-stage (“terraform init”) {
+stage (“terraform”) {
 
 steps {
 
